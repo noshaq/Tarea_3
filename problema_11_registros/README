@@ -1,0 +1,53 @@
+/*
+ * programa main_registros.c
+ * 
+ * se busca medir la diferencia de 
+ * rendimiento entre evaluar las expresiones 
+ * 
+ * t1 = sin(alpha) * x + cos(alpha) * y;
+ * t2 = ­cos(alpha) * x + sin(alpha) * y;
+ *
+ * y al hacerlo usando 
+ * 
+ * s=sin(alpha)
+ * c=cos(alpha)
+ * 
+ * t1 = s * x + c * y;
+ * t2 = ­c * x + s * y
+ *
+ * 
+ * Para ello usamos dos loops for.
+ * con el loop mas externo variamos 
+ * el rango máximo para las variables
+ * x & y:
+ * 
+ *  	t_end= i/delta;
+ * 
+ * el loop interno discretiza x & y
+ * en pasos delta=0.000001, que es suficiente 
+ * para ilustrar el problema 
+ *	x =  i*delta;
+ *	y =  i*delta;
+ * 
+ * El programa entrega 4 archivos, uno por cada
+ * funcion evaluada. La primera columna corresponde 
+ * al numero de iteraciones y la segunda, al tiempo en 
+ * segundos que dardaron dichas iteraciones.
+ * 
+ * 
+ * 
+ * El tiempo de ejecución es mucho menor en el segundo caso
+ * 
+ * s=sin(alpha)
+ * c=cos(alpha)
+ * 
+ * t1 = s * x + c * y;
+ * t2 = ­c * x + s * y
+ * 
+ * Debido a que se aprovecha  la localidad temporal 
+ * de las variables s y c. Caso contrario al
+ * primer caso, en donde se calcula sen(alpha) y
+ * cos(alpha) en cada iteracion
+ * 
+ */
+ 

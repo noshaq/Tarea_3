@@ -1,0 +1,11 @@
+/*
+ * programa : problema_6.c
+ * 
+ * Este prorama evalua la función 
+ * f(x)=sin(x)*ln(2*x+1)*sinh(x) 
+ * en el intervalo [0,10] con un
+ * paso delta_x ingresado por 
+ * el usuario mediante scanf
+ */
+
+ 

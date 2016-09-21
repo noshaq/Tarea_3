@@ -1,0 +1,12 @@
+/*
+ * nombre: calculator.c
+ * 
+ * realiza las operaciones 
+ * algebraicas basicas
+ * ingresando por teclado 
+ * dos numeros y el operando.
+ * Se imprime un mensaje de error 
+ * si no se ingresa un operador valido
+ * 
+ */
+ 

@@ -1,0 +1,13 @@
+/*
+ * programa: find_pi.c
+ * calcula pi usando dos aproximaciones 
+ * diferentes descritas en tarea3.pdf
+ * 
+ * Mediante el makefile usando la variable ARGS
+ *  se ingresa 
+ * el numero de términos en la serie
+ * e imprime en pantalla los valores 
+ * calculados de pi y su comparacion respecto al 
+ * valor guardado en math.h
+ */
+ 

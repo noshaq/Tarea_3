@@ -1,0 +1,17 @@
+/*
+ * programa : velocidad_relativista.c
+ * 
+ * Este prorama evalua 
+ * la masa relativista de 
+ * una partícula que se mueve 
+ * en un intervalo de velocidades 
+ * de [10,c).
+ * 
+ * Recive como parámetro de entrada, un incremento
+ * delta_v > 10 de la velocidad  arrojando como
+ * resultado un archivo de texto con la siguente estructura
+ * 
+ * v	v/c	m
+ * 
+ * 
+ */ 

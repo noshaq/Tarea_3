@@ -1,0 +1,19 @@
+/*
+ * 
+ * programa : numeros_primos.c
+ * 
+ * Calcula los numeros primos 
+ * entre 1 y N, donde N es
+ * introducido por el usuario 
+ * via teclado con scanf
+ * 
+ * El codigo calcula si los numeros 
+ * entre 1 y N_max son divisibles por 
+ * j. Si lo es entonces sum++.
+ * 
+ * 
+ * Después el código verifica si
+ * sum=2, en caso de que sea cierto
+ * el numero i será un primo.
+ * 
+ */ 
